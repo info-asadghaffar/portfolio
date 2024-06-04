@@ -1,0 +1,23 @@
+header{
+    height: 100svh;
+}
+nav .container{
+    border: 1px solid transparent;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    background-color: #3f3945;
+}
+.hero{
+    height: calc(100svh - 210px);
+}
+.hero p img{
+    border: 4px solid white;
+    background: linear-gradient(10deg, #1e19294b, #2c2b2c38);
+}
+.carousel .container{
+    border: 1px solid transparent;
+    border-radius: 20px;
+    padding: 5px 0;
+    background-color: #21113881;
+    backdrop-filter: blur(15px);
+}
