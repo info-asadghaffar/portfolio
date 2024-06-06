@@ -405,14 +405,32 @@ h6{
 /*************************/
 /********* width *********/
 /*************************/
-.w-25{
-    max-width: 25%;
+.w-10{
+    max-width: 10%;
+}
+.w-20{
+    max-width: 20%;
+}
+.w-30{
+    max-width: 30%;
+}
+.w-40{
+    max-width: 40%;
 }
 .w-50{
     max-width: 50%;
 }
-.w-75{
-    max-width: 75%;
+.w-60{
+    max-width: 60%;
+}
+.w-70{
+    max-width: 70%;
+}
+.w-80{
+    max-width: 80%;
+}
+.w-90{
+    max-width: 90%;
 }
 .w-100{
     max-width: 100%;
