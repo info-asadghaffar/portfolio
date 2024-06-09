@@ -22,11 +22,16 @@ nav .collapse .nav-item a:hover{
 /********* hero *********/
 /***********************/
 .hero{
-    height: calc(100svh - 210px);
+    height: calc(100svh - 200px);
 }
 .hero p img{
     border: 4px solid white;
     background: linear-gradient(10deg, #1e19294b, #2c2b2c38);
+}
+@media (max-width: 767px){
+    #work{
+        padding-top: 30% !important;
+    }
 }
 .carousel .container{
     border: 1px solid transparent;
@@ -80,4 +85,26 @@ nav .collapse .nav-item a:hover{
 #expertise .card:hover{
     transform: rotate(6deg);
     transform-origin: left;
+}
+/*************************/
+/******* Pricing ********/
+/***********************/
+#price .price-card{
+    height: auto;
+    width: 95%;
+    border: 1px solid transparent;
+    backdrop-filter: blur(18px);
+    background-color: #3f3945;
+    border-radius: 13px;
+    padding: 20px 13px;
+}
+#price .price-card p{
+    padding-left: 14%;
+}
+/*************************/
+/******* Pricing ********/
+/***********************/
+#footer .row{
+    background-color: transparent;
+    border-radius: 12px;
 }
