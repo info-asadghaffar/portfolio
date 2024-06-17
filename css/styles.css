@@ -67,6 +67,17 @@ nav .collapse .nav-item a:hover{
 #work .card img:hover{
     transform: scale(1.1);
 }
+#work .card .overlay{
+    display: none !important;
+}
+#work .card:hover .overlay{
+    display: flex !important;
+    height: 100%;
+    width: 100%;
+}
+#work .card:hover .overlay .btn-primary{
+    z-index: 999;
+}
 /*************************/
 /******* Expertise ******/
 /***********************/
